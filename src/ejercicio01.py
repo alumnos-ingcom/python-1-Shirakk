@@ -12,11 +12,21 @@
 
 
 def convertir_a_fahrenheit(centigrados):
+    """
+    Toma la temperatura en grados Celsius y la convierte a grados Fahrenheit
+    
+    :param centigrados: La temperatura en grados Celsius
+    """
     fahrenheit = (centigrados * 9/5) + 32
     print(f"{centigrados} grados centigrados son {fahrenheit} grados fahrenheit")
     
 
 def convertir_a_centigrados(fahrenheit):
+    """
+    Esta funcion toma la temperatura en fahrenheit e imprime la temperatura equivalente en celsius
+    
+    :para fahrenheit: La temperatura en fahrenheit
+    """
     centigrados = (fahrenheit - 32) * 5/9
     print(f"{fahrenheit} grados fahrenheit son {centigrados} grados celcius")
     
