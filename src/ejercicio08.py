@@ -29,7 +29,7 @@ def principal():
     numero = int(input('Escribe un numero: '))
     resultado = es_primo(numero)
 
-    if resultado is True:
+    if resultado == True:
         print('El numero es primo')
     else:
         print('El numero no es primo')
