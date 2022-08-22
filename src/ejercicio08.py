@@ -1,6 +1,5 @@
 ################
 # Santiago Catriman - @Shirakk
-# Plantilla de ejercicio
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 def es_primo(numero):
