@@ -1,6 +1,10 @@
 ################
 # Santiago Catriman - @Shirakk
 # UNRN Andina - Introducción a la Ingenieria en Computación
+
+#Palindromos.
+#Escribir una función que indique con True si una palabra o frase ingresada se trata de un palindromo. 
+# Palíndromo, es si se lee igual de derecha a izquierda que de izquierda a derecha.
 ################
 def es_palindromo(texto):
     """
@@ -33,7 +37,6 @@ def principal():
 
     resultado = es_palindromo(palabra)
     print(resultado)
-    return resultado
 
 if __name__ == "__main__":
     principal()
