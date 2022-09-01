@@ -1,6 +1,8 @@
 ################
 # Santiago Catriman - @Shirakk
 # UNRN Andina - Introducción a la Ingenieria en Computación
+
+# Escribir una función que indique con True si un numero indicado es Primo.
 ################
 def es_primo(numero):
     """
@@ -25,13 +27,11 @@ def principal():
     """
     Toma un número como entrada y devuelve True si el número es primo y False si no lo es.
     """
-    numero = int(input('Escribe un numero: '))
+    print("El sugiente script le dira si un numero es primo o no.")
+    numero = int(input('Escribe el numero para saber si es primo: '))
     resultado = es_primo(numero)
 
-    if resultado == True:
-        print('El numero es primo')
-    else:
-        print('El numero no es primo')
+    print(resultado)
 
 
 if __name__ == '__main__':
